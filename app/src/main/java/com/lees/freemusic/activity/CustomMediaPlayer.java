@@ -7,7 +7,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.ServiceConnection;
 import android.graphics.drawable.Drawable;
-import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
@@ -18,18 +17,15 @@ import android.support.annotation.RequiresApi;
 import android.util.DisplayMetrics;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.SeekBar;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.lees.freemusic.IMediaPlayerService;
 import com.lees.freemusic.R;
 import com.lees.freemusic.bean.MediaItem;
 import com.lees.freemusic.service.MediaPlayerService;
 import com.lees.freemusic.util.CommUtils;
-import com.lees.freemusic.view.LrcView;
 
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
@@ -37,8 +33,6 @@ import org.greenrobot.eventbus.ThreadMode;
 import org.xutils.common.Callback;
 import org.xutils.x;
 
-import java.io.IOException;
-import java.net.URL;
 import java.util.ArrayList;
 
 /**
@@ -64,7 +58,7 @@ public class CustomMediaPlayer extends Activity implements View.OnClickListener 
 
     private LinearLayout ll_player;
 
-    private LrcView lrc_view_full;
+
 
 
     private IMediaPlayerService service;

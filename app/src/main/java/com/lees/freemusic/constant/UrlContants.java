@@ -25,7 +25,7 @@ public class UrlContants {
      * size: 10 //返回条目数量
      * offset: 0 //获取偏移
      */
-    public static final String LIST_URL = BASE_URL + "?offset=0&size=3&type=%s&_t=1468380543284&format=json&method=baidu.ting.billboard.billList";
+    public static final String LIST_URL = BASE_URL + "?offset=0&size=10&type=%s&_t=1468380543284&format=json&method=baidu.ting.billboard.billList";
 
     /**
      * 搜索
