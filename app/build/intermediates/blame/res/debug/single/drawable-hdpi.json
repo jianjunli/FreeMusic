@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "/Users/lees/AndroidStudioProjects/FreeMusic/app/build/intermediates/res/merged/debug/drawable-hdpi/timg.png",
+        "source": "/Users/lees/AndroidStudioProjects/FreeMusic/app/src/main/res/drawable-hdpi/timg.png"
+    },
+    {
+        "merged": "/Users/lees/AndroidStudioProjects/FreeMusic/app/build/intermediates/res/merged/debug/drawable-hdpi/music_logo.png",
+        "source": "/Users/lees/AndroidStudioProjects/FreeMusic/app/src/main/res/drawable-hdpi/music_logo.png"
+    },
+    {
+        "merged": "/Users/lees/AndroidStudioProjects/FreeMusic/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_tab_audio.png",
+        "source": "/Users/lees/AndroidStudioProjects/FreeMusic/app/src/main/res/drawable-hdpi/ic_tab_audio.png"
+    },
+    {
+        "merged": "/Users/lees/AndroidStudioProjects/FreeMusic/app/build/intermediates/res/merged/debug/drawable-hdpi/btn_pause.png",
+        "source": "/Users/lees/AndroidStudioProjects/FreeMusic/app/src/main/res/drawable-hdpi/btn_pause.png"
+    },
+    {
+        "merged": "/Users/lees/AndroidStudioProjects/FreeMusic/app/build/intermediates/res/merged/debug/drawable-hdpi/btn_lately.png",
+        "source": "/Users/lees/AndroidStudioProjects/FreeMusic/app/src/main/res/drawable-hdpi/btn_lately.png"
+    },
+    {
+        "merged": "/Users/lees/AndroidStudioProjects/FreeMusic/app/build/intermediates/res/merged/debug/drawable-hdpi/btn_next.png",
+        "source": "/Users/lees/AndroidStudioProjects/FreeMusic/app/src/main/res/drawable-hdpi/btn_next.png"
+    },
+    {
+        "merged": "/Users/lees/AndroidStudioProjects/FreeMusic/app/build/intermediates/res/merged/debug/drawable-hdpi/btn_pre.png",
+        "source": "/Users/lees/AndroidStudioProjects/FreeMusic/app/src/main/res/drawable-hdpi/btn_pre.png"
+    },
+    {
+        "merged": "/Users/lees/AndroidStudioProjects/FreeMusic/app/build/intermediates/res/merged/debug/drawable-hdpi/btn_like_pressed.png",
+        "source": "/Users/lees/AndroidStudioProjects/FreeMusic/app/src/main/res/drawable-hdpi/btn_like_pressed.png"
+    },
+    {
+        "merged": "/Users/lees/AndroidStudioProjects/FreeMusic/app/build/intermediates/res/merged/debug/drawable-hdpi/btn_like.png",
+        "source": "/Users/lees/AndroidStudioProjects/FreeMusic/app/src/main/res/drawable-hdpi/btn_like.png"
+    },
+    {
+        "merged": "/Users/lees/AndroidStudioProjects/FreeMusic/app/build/intermediates/res/merged/debug/drawable-hdpi/btn_play.png",
+        "source": "/Users/lees/AndroidStudioProjects/FreeMusic/app/src/main/res/drawable-hdpi/btn_play.png"
+    },
+    {
+        "merged": "/Users/lees/AndroidStudioProjects/FreeMusic/app/build/intermediates/res/merged/debug/drawable-hdpi/btn_play_seq.png",
+        "source": "/Users/lees/AndroidStudioProjects/FreeMusic/app/src/main/res/drawable-hdpi/btn_play_seq.png"
+    },
+    {
+        "merged": "/Users/lees/AndroidStudioProjects/FreeMusic/app/build/intermediates/res/merged/debug/drawable-hdpi/btn_radio.png",
+        "source": "/Users/lees/AndroidStudioProjects/FreeMusic/app/src/main/res/drawable-hdpi/btn_radio.png"
+    }
+]

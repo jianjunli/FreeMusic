@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/lees/AndroidStudioProjects/FreeMusic/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/Users/lees/AndroidStudioProjects/FreeMusic/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.3.1_2c9bc458f26178a226e7ccba3855e2f93d41b90c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lees/AndroidStudioProjects/FreeMusic/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/Users/lees/AndroidStudioProjects/FreeMusic/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.3.1_7cef531a101e95bac7d4b34fd08b45fb9898d05d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lees/AndroidStudioProjects/FreeMusic/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/Users/lees/AndroidStudioProjects/FreeMusic/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.3.1_7071a58834aa425761d49b1ca2c34da678fa5718/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lees/AndroidStudioProjects/FreeMusic/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/Users/lees/AndroidStudioProjects/FreeMusic/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.3.1_282d0e938b3d6debd043d215d57a157a56848cfc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lees/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3/11393498b38e9695d0850cac26fde5613ae268b9/httpcore-4.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="11393498b38e9695d0850cac26fde5613ae268b9">
+        <dex dex="/Users/lees/AndroidStudioProjects/FreeMusic/app/build/intermediates/transforms/dex/debug/folders/1000/10/httpcore-4.3_3fb81bf06670b4254105b2cf740d9eb9300bd3ae/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lees/AndroidStudioProjects/FreeMusic/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/Users/lees/AndroidStudioProjects/FreeMusic/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.3.1_cd9ea5447c4b038c1f694828e7b9f1208d6362d8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lees/AndroidStudioProjects/FreeMusic/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2ea903c7f1cee83a9607ca05fcd34753e462bcf7">
+        <dex dex="/Users/lees/AndroidStudioProjects/FreeMusic/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_7198d9653d0b374e9fcd9eb5a876903f27b352b0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lees/AndroidStudioProjects/FreeMusic/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/Users/lees/AndroidStudioProjects/FreeMusic/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.3.1_d5a725d4ac97003b449a10f9729e1f9fea96a072/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lees/.gradle/caches/modules-2/files-2.1/org.greenrobot/eventbus/3.0.0/ddd99896e9569eaababbe81b35d80e1b91c4ad85/eventbus-3.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
+        <dex dex="/Users/lees/AndroidStudioProjects/FreeMusic/app/build/intermediates/transforms/dex/debug/folders/1000/10/eventbus-3.0.0_ef85b626b3d863ae42c8e8d0f200ae9216bf77aa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lees/AndroidStudioProjects/FreeMusic/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="142e3a675ba2b066da03434ebd9566f917a64b97">
+        <dex dex="/Users/lees/AndroidStudioProjects/FreeMusic/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_53522946d314bfbdf116cefd6a47d69f91fa076c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lees/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/Users/lees/AndroidStudioProjects/FreeMusic/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.3.1_da604fd70e9d0b9dab21347fba609c3c3e4fc89d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lees/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpmime/4.3/5b0002c5fb66867ca919be0fbd86de1cfaf76da7/httpmime-4.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5b0002c5fb66867ca919be0fbd86de1cfaf76da7">
+        <dex dex="/Users/lees/AndroidStudioProjects/FreeMusic/app/build/intermediates/transforms/dex/debug/folders/1000/10/httpmime-4.3_41213867dff52f333544ce367547f4be92839e44/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lees/AndroidStudioProjects/FreeMusic/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/lees/AndroidStudioProjects/FreeMusic/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.3.1_78f258f6ee6fec21d0070644c3cd23df420ab173/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lees/AndroidStudioProjects/FreeMusic/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/Users/lees/AndroidStudioProjects/FreeMusic/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.3.1_8d6750a05973fe39ec16a4eccb6d4853e363c8eb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lees/AndroidStudioProjects/FreeMusic/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/Users/lees/AndroidStudioProjects/FreeMusic/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.3.1_c2d16154d7e4f266743b5214e1d3de25026115b5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lees/AndroidStudioProjects/FreeMusic/app/build/intermediates/exploded-aar/org.xutils/xutils/3.5.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c70d3d4cb2d0b16c435c716fa169cb506929269b">
+        <dex dex="/Users/lees/AndroidStudioProjects/FreeMusic/app/build/intermediates/transforms/dex/debug/folders/1000/10/org.xutils-xutils-3.5.0_2fd831411820081e138640a85aa57f6f879de80e/classes.dex" />
+    </item>
+
+</items>

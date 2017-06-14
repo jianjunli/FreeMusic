@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <RadioGroup
+        android:id="@+id/btn_radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="2dp">
+
+
+        <RadioButton
+            android:id="@+id/btn_radio"
+            style="@style/bottom_tag_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/btn_radio"
+            android:text="电台" />
+
+        <RadioButton
+            android:id="@+id/btn_singer"
+            style="@style/bottom_tag_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/btn_lately"
+            android:text="歌手" />
+
+        <RadioButton
+            android:id="@+id/btn_like"
+            style="@style/bottom_tag_style"
+            android:drawableTop="@drawable/btn_like"
+            android:text="我喜欢" />
+
+
+        <RadioButton
+            android:id="@+id/btn_local"
+            style="@style/bottom_tag_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/btn_lately"
+            android:text="本地" />
+
+    </RadioGroup>
+
+    <!-- 中间部分（展示的内容） -->
+    <FrameLayout
+        android:id="@+id/fl_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+    </FrameLayout>
+
+    <include
+        android:id="@+id/media_player"
+        layout="@layout/activity_media_player"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+
+</LinearLayout>
