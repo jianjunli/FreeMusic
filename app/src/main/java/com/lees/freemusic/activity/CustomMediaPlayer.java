@@ -7,6 +7,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.ServiceConnection;
 import android.graphics.drawable.Drawable;
+import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
@@ -26,6 +27,8 @@ import com.lees.freemusic.R;
 import com.lees.freemusic.bean.MediaItem;
 import com.lees.freemusic.service.MediaPlayerService;
 import com.lees.freemusic.util.CommUtils;
+import com.lees.freemusic.util.HttpUtils;
+import com.lees.freemusic.view.LrcView;
 
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
@@ -33,6 +36,11 @@ import org.greenrobot.eventbus.ThreadMode;
 import org.xutils.common.Callback;
 import org.xutils.x;
 
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.InputStreamReader;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.ArrayList;
 
 /**
@@ -58,7 +66,7 @@ public class CustomMediaPlayer extends Activity implements View.OnClickListener 
 
     private LinearLayout ll_player;
 
-
+    private LrcView lrcView;
 
 
     private IMediaPlayerService service;
@@ -70,7 +78,7 @@ public class CustomMediaPlayer extends Activity implements View.OnClickListener 
 
     private CommUtils commUtils;
 
-    Handler handler = new Handler(){
+    Handler handler = new Handler() {
 
         @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)
         @Override
@@ -81,10 +89,12 @@ public class CustomMediaPlayer extends Activity implements View.OnClickListener 
                     try {
                         seekbar.setProgress(service.getCurrentPosition());
                         time_progress.setText(commUtils.stringForTime(service.getCurrentPosition()));
-                       // asyncSomethings();
+                        // asyncSomethings();
                     } catch (RemoteException e) {
                         e.printStackTrace();
                     }
+
+                    lrcView.updateTime(seekbar.getProgress());
 
                     handler.sendEmptyMessageDelayed(PROGRESS, 1000);
 
@@ -113,7 +123,7 @@ public class CustomMediaPlayer extends Activity implements View.OnClickListener 
         time_progress = (TextView) findViewById(R.id.time_progress);
         ll_player = (LinearLayout) findViewById(R.id.ll_player);
 
-        //lrc_view_full = (LrcView) findViewById(R.id.lrc_view_full);
+        lrcView = (LrcView) findViewById(R.id.lrcView);
 
         // 得到屏幕的宽和高
         DisplayMetrics displayMetrics = new DisplayMetrics();
@@ -219,13 +229,13 @@ public class CustomMediaPlayer extends Activity implements View.OnClickListener 
                 }
             });
 
+            loadLrc(mediaItem.getLrcUrl());
+
             handler.sendEmptyMessage(PROGRESS);
         } catch (RemoteException e) {
             e.printStackTrace();
         }
     }
-
-
 
 
     @Override
@@ -285,6 +295,7 @@ public class CustomMediaPlayer extends Activity implements View.OnClickListener 
             if (fromUser) {
                 try {
                     service.seekTo(progress);
+                    lrcView.onDrag(progress);
                 } catch (RemoteException e) {
                     e.printStackTrace();
                 }
@@ -300,5 +311,34 @@ public class CustomMediaPlayer extends Activity implements View.OnClickListener 
         public void onStopTrackingTouch(SeekBar seekBar) {
 
         }
+    }
+
+
+    private void loadLrc(final String path) {
+
+        new AsyncTask<String, Void, String>() {
+            @Override
+            protected String doInBackground(String... params) {
+                StringBuilder builder = new StringBuilder();
+                try {
+                    URL url = new URL(params[0]);
+                    BufferedReader reader = new BufferedReader(new InputStreamReader(url.openStream()));
+                    String s;
+                    while ((s = reader.readLine()) != null) {
+                        builder.append(s).append("\n");
+                    }
+                    reader.close();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+
+                return builder.toString();
+            }
+
+            @Override
+            protected void onPostExecute(String aVoid) {
+                lrcView.loadLrc(aVoid);
+            }
+        }.execute(path);
     }
 }

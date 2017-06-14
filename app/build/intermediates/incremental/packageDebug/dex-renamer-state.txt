@@ -1,4 +1,4 @@
-#Wed Jun 14 11:32:24 CST 2017
+#Wed Jun 14 14:08:53 CST 2017
 base.0=/Users/lees/AndroidStudioProjects/FreeMusic/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_53522946d314bfbdf116cefd6a47d69f91fa076c
 renamed.1=classes.dex
 renamed.0=classes2.dex

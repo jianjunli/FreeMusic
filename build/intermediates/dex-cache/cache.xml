@@ -61,7 +61,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="2d81d6bb7751536055d3aac5a1d9c971e7731bb2">
+        sha1="6175b172bc766ec4207124dd22325375e5891cff">
         <dex dex="/Users/lees/AndroidStudioProjects/FreeMusic/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_7198d9653d0b374e9fcd9eb5a876903f27b352b0/classes.dex" />
     </item>
     <item
@@ -88,7 +88,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="ade9c511d029aa8487bbe51054c70952e4355463">
+        sha1="7f72a6cab7f84cf871cdc0fdeea3b2f3fcf58c28">
         <dex dex="/Users/lees/AndroidStudioProjects/FreeMusic/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_53522946d314bfbdf116cefd6a47d69f91fa076c/classes.dex" />
     </item>
     <item

@@ -5,46 +5,33 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="664613467540065"
+    timestamp="671711441439505"
     token="-8406178461526158603"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="966" />
+        duration="4993" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="33" />
+        duration="1067" />
     <task
         name="verifier"
-        duration="2" />
+        duration="243" />
 
     <artifact
-        location="/Users/lees/AndroidStudioProjects/FreeMusic/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex"
-        type="DEX" />
-    <artifact
-        location="/Users/lees/AndroidStudioProjects/FreeMusic/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
-        type="DEX" />
+        location="/Users/lees/AndroidStudioProjects/FreeMusic/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
 
     <build
-        timestamp="664530523501672"
+        timestamp="671711441439505"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/lees/AndroidStudioProjects/FreeMusic/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
-    </build>
-    <build
-        timestamp="664613467540065"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/Users/lees/AndroidStudioProjects/FreeMusic/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex"
-            type="DEX" />
-        <artifact
-            location="/Users/lees/AndroidStudioProjects/FreeMusic/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
-            type="DEX" />
     </build>
 
 </instant-run>
